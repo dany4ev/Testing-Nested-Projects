@@ -1,0 +1,17 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "all-install": "npm-run-all all-install-attendance all-install-departments all-install-employees",
+    "all-install-attendance": "cd ../Attendance && npm install",
+    "all-install-departments": "cd ../Departments && npm install",
+    "all-install-employees": "cd ../Employees && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
