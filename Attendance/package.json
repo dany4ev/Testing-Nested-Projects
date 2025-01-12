@@ -1,0 +1,12 @@
+{
+  "name": "attendance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
